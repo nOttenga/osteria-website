@@ -1,40 +1,6 @@
-
+Parse.initialize("svGlZSHSwTbOPEmtwY8sifJLEsYs6qo7Uu27Pugz", "0cNTfvlPkVUjB4m7LASzOd8F4rCIpAYuoFOw1oHn");
 
 $(document).ready(function() {
 
-  initLiving();
-  initApp();
 
 });
-
-
-
-function initGalleryHero(){
-  $(".gallery-hero").addClass('.owl-carousel');
-  $(".gallery-hero").owlCarousel({
-
-    singleItem : true,
-    itemsScaleUp : false
-
-  });
-}
-
-function initLiving(){
-
-  $(".living-lab-carousel").owlCarousel({
-
-    singleItem : true,
-    itemsScaleUp : false
-
-  });
-}
-
-function initApp(){
-
-  $(".app-carousel").owlCarousel({
-
-    singleItem : true,
-    itemsScaleUp : false
-
-  });
-}
